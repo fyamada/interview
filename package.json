@@ -21,10 +21,17 @@
     "verbose": true
   },
   "dependencies": {
-    "express": "^4.16.4"
+    "axios": "^0.21.1",
+    "config": "^3.3.6",
+    "express": "^4.16.4",
+    "moment": "^2.29.1",
+    "vue": "^2.6.12",
+    "vuex": "^3.6.2",
+    "winston": "^3.3.3"
   },
   "devDependencies": {
     "eslint": "^7.16.0",
+    "eslint-plugin-babel": "^5.3.1",
     "eslint-plugin-jest": "^22.3.2",
     "eslint-plugin-node": "^8.0.1",
     "eslint-plugin-promise": "^4.0.1",

@@ -7,4 +7,5 @@ test('Router Setup', () => {
     .map(layer => layer.route.path)
 
   expect(routes.includes('/')).toBe(true)
+  expect(routes.includes('/drawchecker')).toBe(true)
 })
